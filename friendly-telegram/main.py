@@ -105,8 +105,7 @@ save_config_key("use_fs_for_modules", get_config_key("use_fs_for_modules"))
 
 
 def gen_port():
-    # In case of heroku you always need to use 8080
-    if "DYNO" in os.environ:
+    if "DYNO" in os.environ or "OKTETO" in os.environ:
         return 8080
 
     # But for own server we generate new free port, and assign to it
