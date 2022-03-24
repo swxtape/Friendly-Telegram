@@ -1,0 +1,11 @@
+name: gtg
+services:
+  worker:
+    public: true
+    build: .
+    replicas: 1
+    ports:
+      - 8080
+    resources:
+      cpu: 900m
+      memory: 2Gi
