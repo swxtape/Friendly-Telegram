@@ -22,12 +22,12 @@ if (Test-Path "Friendly-Telegram" -PathType Container)
 	{
 		Set-Location "Friendly-Telegram"
 	}
-	python -m friendly-telegram
+	py -m friendly-telegram
 	exit
 }
 
 Write-Output("Downloading Python...")
-Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe" -OutFile (Join-Path $env:TEMP "python-installer.exe")
+Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.10.4/python-3.10.4.exe" -OutFile (Join-Path $env:TEMP "python-installer.exe")
 Write-Output("Installing Python...")
 Start-Process (Join-Path $env:TEMP "python-installer.exe") @("/quiet"; "InstallAllUsers=0"; "PrependPath=1"; "Include_test=0"; "InstallLauncherAllUsers=0") -Wait
 Write-Output("Locating Git...")
@@ -57,6 +57,6 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";
 git clone https://github.com/GeekTG/Friendly-Telegram
 
 Set-Location Friendly-Telegram
-python -m pip install -r requirements.txt
-python -m friendly-telegram
-python -m friendly-telegram # TODO pass args
+py -m pip install -r requirements.txt
+py -m friendly-telegram
+py -m friendly-telegram # TODO pass args
