@@ -13,7 +13,6 @@ the [Telethon](https://github.com/GeekTG/Telethon) Library.
 - Native FFmpeg support for Heroku
 - Quick bug fixes (compared to official FTG)
 - Inline Buttons, available not only for core modules, but for every developer
-- Inline Galleries for every developer
 - Full backward compatibility with older version and with official FTG modules
 
 ![img](https://user-images.githubusercontent.com/36935426/158634458-424021a3-27c4-494f-9db2-1266f161e7a2.png)
