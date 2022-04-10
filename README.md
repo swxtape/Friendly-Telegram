@@ -5,7 +5,7 @@ the [Telethon](https://github.com/GeekTG/Telethon) Library.
 
 
 ## Changes
-1
+
 - Latest Telegram Layers with reactions, video stickers and other stuff
 - Security improvements
 - UI/UX improvements
