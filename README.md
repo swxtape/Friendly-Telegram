@@ -17,7 +17,6 @@ the [Telethon](https://github.com/GeekTG/Telethon) Library.
 
 ![img](https://user-images.githubusercontent.com/36935426/158634458-424021a3-27c4-494f-9db2-1266f161e7a2.png)
 
-
 ## Small, but useful
 
 ### InlineLogs - traceback directly in message, caused error
