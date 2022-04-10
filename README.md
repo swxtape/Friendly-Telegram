@@ -28,6 +28,7 @@ the [Telethon](https://github.com/GeekTG/Telethon) Library.
 ### NoNick, NoNickUser, NoNickCmd - enable global nonickname feature
 ![img4](https://user-images.githubusercontent.com/36935426/158637220-00495363-cf4a-4e6f-a4b2-51d693906ead.png)
 ---
+
 ### Requirements
 
 - Python 3.8 or above
